@@ -1,0 +1,65 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00ff00;;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    text-align: center;
+    color: #ff0000; /
+}
+h2 {
+    text-align: center;
+    color: green; 
+}
+h1 {
+    text-align: center;
+    color: #0000ff; 
+}
+/* Section and Aside layout */
+
+#main-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content {
+    width: 60%;
+}
+
+.sidebar {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* Text styles */
+
+.text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000000; /* Black color */
+}
+/* Image styles */
+
+.responsive {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ff0000; /* Red border for styling */
+}
+/* Footer */
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.copyright {
+    color: #000000;
+    font-size: 14px;
+}
